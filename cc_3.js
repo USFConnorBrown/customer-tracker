@@ -23,7 +23,7 @@ const newCustomer = {
     email: "alicejohnson@outlook.com",
     purchases: ["Laptop Stand", "Wireless Mouse", "Keyboard"],
 };
-customers.push(newCusomer);
+customers.push(newCustomer);
 customers.shift(); // Remove customer Bob Wallace
 //Step 4: Update Customer Info
 customers[0].email = "lucasbrown@gmail.com"; // Update Lucas Brown's email
