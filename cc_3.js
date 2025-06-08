@@ -27,7 +27,7 @@ customers.push(newCusomer);
 customers.shift(); // Remove customer Bob Wallace
 //Step 4: Update Customer Info
 customers[0].email = "lucasbrown@gmail.com"; // Update Lucas Brown's email
-customers[1].purchases.push("Office Chair"); // Add purchase to John Smith
+customers[1].purchases.push("Office Chair"); // Add purchase for John Smith
 //Step 5: Display Customer Information
     console.log("\nCustomer Information:");
     customers.forEach(customer => { 
